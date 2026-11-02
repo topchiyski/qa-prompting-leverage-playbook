@@ -1,8 +1,15 @@
 # When AI Cheats on Your Tests: The QA Prompt Engineering Playbook
 
-[![LinkedIn Article](https://img.shields.io/badge/LinkedIn_Article-Read_Now-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/pulse/when-ai-cheats-your-tests-stoyan-topchiyski-29jge)
+[![LinkedIn Article](https://img.shields.io/badge/LinkedIn_Article-Coming_Soon-0A66C2?style=for-the-badge&logo=linkedin)][article]
+[![Connect on LinkedIn](https://img.shields.io/badge/Author-Stoyan_Topchiyski-0A66C2?style=for-the-badge&logo=linkedin)][author]
 
-Companion repository for the LinkedIn article **[When AI Cheats on Your Tests](https://www.linkedin.com/pulse/when-ai-cheats-your-tests-stoyan-topchiyski-29jge)** by Stoyan Topchiyski.
+> **📰 This is the companion repository to the LinkedIn article [When AI Cheats on Your Tests][article] by [Stoyan Topchiyski][author].**
+> The article explains *why* AI-generated tests fail and how to stop it. This repo holds the ready-to-use prompts and the benchmarks behind it.
+
+<!-- TODO: When the article is published, replace ARTICLE_URL_PLACEHOLDER on the line below and change the badge text "Coming_Soon" to "Read_Now". -->
+
+[article]: ARTICLE_URL_PLACEHOLDER
+[author]: https://www.linkedin.com/in/stoyan-topchiyski/
 
 ## 🚨 The Problem
 
@@ -54,6 +61,12 @@ Use the blocks each task needs. Agent prompts add `<instructions>`, `<output_sch
 | Boundary & negative data synthesis | `0.2–0.4` | `0.95` | Fixed per CI build | Pydantic / JSON Schema with enums |
 | Exploratory edge cases & BDD | `0.3–0.5` | `0.95` | Optional | `gherkin-lint` |
 | LLM-as-a-judge / failure triage | `0.0` | `1.0` | Fixed | Rubric JSON with `evidence_quotes` first |
+
+---
+
+## 💬 Contact
+
+Questions, feedback, or ideas for new prompts? Connect with me on **[LinkedIn](https://www.linkedin.com/in/stoyan-topchiyski/)**.
 
 ---
 
