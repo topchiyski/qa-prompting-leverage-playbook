@@ -1,0 +1,21 @@
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Security scanner local state (Checkmarx extension)
+.checkmarxIgnored
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
